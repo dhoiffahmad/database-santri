@@ -210,9 +210,10 @@ main {
   gap: 10px;
   max-width: 400px;
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 .home-sekilas-tengah {
-  margin-left: 40px;
+  margin-left: 50px;
 }
 .home2 {
 }
@@ -229,13 +230,37 @@ main {
 .home2 span {
   font-size: 30px;
 }
-/* RESPONSIVE 
-Moblibe*/
 
-@media (max-width: 767px) {
+/* Laptop */
+@media screen and (max-width: 1439px) {
+  nav {
+    padding: 30px 10%;
+  }
+  main {
+    padding: 109px 10% 0 10%;
+  }
+}
+/* Tablet */
+@media screen and (max-width: 1023px) {
   nav {
     display: block;
-    padding: 1rem 2rem;
+    padding: 30px 20%;
+  }
+
+  .cari-daftar {
+    display: none;
+  }
+  main {
+    background-color: #a00d0d;
+  }
+}
+
+/* RESPONSIVE 
+Moblibe*/
+@media screen and (max-width: 767px) {
+  nav {
+    display: block;
+    padding: 30px 5%;
   }
   nav .mainMenu {
     height: 100vh;
@@ -274,22 +299,29 @@ Moblibe*/
   .cari-daftar li {
     display: none;
   }
-}
-
-/* Tablet */
-@media screen and (max-width: 1023px) {
-  nav {
+  main {
+    width: 100%;
+    height: 100vh;
+    padding: 109px 5% 0 5%;
+    background-color: #0d717a;
+  }
+  .home {
     display: block;
-    padding: 30px 10%;
   }
-
-  .cari-daftar {
-    display: none;
+  .home1 {
+    text-align: center;
+    padding: 0 15px;
+    width: 100%;
   }
-}
-/* Laptop */
-@media screen and (max-width: 1439px) {
-  nav {
-    padding: 30px 10%;
+  .home h1 {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.5em;
+  }
+  .home h2 {
+    font-size: 35px;
+    line-height: 1em;
+    font-weight: 900;
+    margin-bottom: 15px;
   }
 }
