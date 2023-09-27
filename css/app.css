@@ -239,6 +239,25 @@ main {
   main {
     padding: 109px 10% 0 10%;
   }
+  .home2 .laptop {
+    padding: 0;
+    margin: auto;
+    top: 270px;
+    position: absolute;
+    right: 7%;
+    width: 450px;
+  }
+  .home2 .phone {
+    top: 300px;
+    position: absolute;
+    right: 30%;
+    z-index: 1;
+    width: 400px;
+  }
+  .home2 .phone img,
+  .home2 .laptop img {
+    display: block;
+  }
 }
 /* Tablet */
 @media screen and (max-width: 1023px) {
