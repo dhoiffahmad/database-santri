@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #abd5b8;
+}
+header {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+}
+nav {
+  background: white;
+  color: rgb(36, 36, 36);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15%;
+  font-family: "quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+/* Baru */
+nav div img {
+  width: 150px;
+}
+.mainMenu {
+  display: flex;
+  align-items: center;
+}
+.logo-menulist {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-menulist ul {
+  display: flex;
+  list-style: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/*  */
+.cari-daftar {
+  display: flex;
+}
+
+.cari-daftar {
+  gap: 30px;
+}
+.cari-daftar li {
+  list-style: none;
+}
+.cari-daftar li a {
+  text-decoration: none;
+}
+
+.daftar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background-color: rgb(0, 71, 18);
+  width: 140px;
+  height: 40px;
+}
+.daftar a {
+  color: white;
+}
+.cari {
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  background-color: rgb(239, 239, 239);
+  width: 180px;
+  height: 40px;
+}
+.cari i,
+.cari a {
+  margin-left: 15px;
+  color: black;
+}
+.logo-cari {
+  display: none;
+}
+/*  */
+
+/* Bisa */
+nav .mainMenu {
+  display: flex;
+  list-style: none;
+}
+nav .mainMenu li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.2s ease;
+  border-radius: 100px;
+}
+nav .mainMenu li a:hover {
+  background: rgb(214, 237, 219);
+}
+nav .openMenu {
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+nav .mainMenu .closeMenu,
+.icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+.fa-facebook:hover {
+  color: rgb(0, 110, 255);
+}
+.fa-twitter:hover {
+  color: rgb(86, 154, 243);
+}
+.fa-instagram:hover {
+  color: rgb(255, 0, 191);
+}
+.fa-github:hover {
+  color: rgb(255, 123, 0);
+}
+nav .logo {
+  margin: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* MAIN-
+MAIN */
+main {
+  height: 100vh;
+  padding: 109px 15% 0 15%;
+  background-color: #ddfba2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.home {
+  margin: auto;
+  padding-top: 12%;
+  background-color: #f9cbcb;
+  height: 560px;
+  display: flex;
+  gap: 80px;
+}
+.home h1 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5em;
+}
+.home h2 {
+  font-size: 46px;
+  line-height: 1em;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.home p {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+.tombol button {
+  border: none;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.tombol1 {
+  background-color: #abd5b8;
+  color: black;
+}
+.tombol2 {
+  background-color: #bcedaf;
+  color: #a00d0d;
+}
+.home1,
+.home2 {
+  width: 50%;
+}
+.home1 {
+  padding-right: 10px;
+}
+.home1 h2 {
+  letter-spacing: -2px;
+}
+.home1 strong {
+  font-weight: 800;
+  position: relative;
+  color: rgb(252, 164, 1);
+  margin: -9px;
+}
+.home2-sekilas {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  gap: 10px;
+  min-width: 100px;
+  margin-left: 50px;
+}
+.home2 img {
+  width: 60px;
+  height: 60px;
+}
+.home2 p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1rem;
+  margin-right: 20px;
+}
+.home2 span {
+  font-size: 30px;
+}
+/* RESPONSIVE 
+Moblibe*/
+
+@media (max-width: 767px) {
+  nav {
+    display: block;
+    padding: 1rem 2rem;
+  }
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 71, 18);
+    transition: top 1s ease 0s;
+    display: none;
+  }
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  nav .openMenu {
+    display: block;
+    margin: 0;
+  }
+  nav .mainMenu li a:hover {
+    background: none;
+    color: rgb(255, 123, 0);
+  }
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
+
+  .cari-daftar li {
+    display: none;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 1023px) {
+  nav {
+    display: block;
+    padding: 30px 10%;
+  }
+
+  .cari-daftar {
+    display: none;
+  }
+}
+/* Laptop */
+@media screen and (max-width: 1439px) {
+  nav {
+    padding: 30px 10%;
+  }
+}
