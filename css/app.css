@@ -208,8 +208,13 @@ main {
   padding: 20px;
   border-radius: 8px;
   gap: 10px;
-  min-width: 100px;
-  margin-left: 50px;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.home-sekilas-tengah {
+  margin-left: 40px;
+}
+.home2 {
 }
 .home2 img {
   width: 60px;
