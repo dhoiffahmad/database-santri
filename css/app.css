@@ -150,7 +150,7 @@ main {
   background-color: #f9cbcb;
   height: 560px;
   display: flex;
-  gap: 80px;
+  gap: 40px;
 }
 .home h1 {
   font-weight: 700;
@@ -185,12 +185,8 @@ main {
   background-color: #bcedaf;
   color: #a00d0d;
 }
-.home1,
-.home2 {
-  width: 50%;
-}
 .home1 {
-  padding-right: 10px;
+  width: 40%;
 }
 .home1 h2 {
   letter-spacing: -2px;
@@ -201,34 +197,12 @@ main {
   color: rgb(252, 164, 1);
   margin: -9px;
 }
-.home2-sekilas {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  gap: 10px;
-  max-width: 400px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
-.home-sekilas-tengah {
-  margin-left: 50px;
-}
 .home2 {
   display: flex;
+  width: 60%;
 }
 .home2 img {
-  max-width: 100%;
-}
-.home2 p {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1rem;
-  margin-right: 20px;
-}
-.home2 span {
-  font-size: 30px;
+  width: 100%;
 }
 
 /* Laptop */
@@ -238,25 +212,6 @@ main {
   }
   main {
     padding: 109px 10% 0 10%;
-  }
-  .home2 .laptop {
-    padding: 0;
-    margin: auto;
-    top: 270px;
-    position: absolute;
-    right: 7%;
-    width: 450px;
-  }
-  .home2 .phone {
-    top: 300px;
-    position: absolute;
-    right: 30%;
-    z-index: 1;
-    width: 400px;
-  }
-  .home2 .phone img,
-  .home2 .laptop img {
-    display: block;
   }
 }
 /* Tablet */
@@ -285,35 +240,16 @@ main {
   }
   .home h1 {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.5em;
   }
   .home h2 {
-    font-size: 35px;
-    line-height: 1em;
-    font-weight: 900;
-    margin-bottom: 15px;
-  }
-  .home2 img {
-    max-width: 130%;
+    padding: 0 80px;
   }
   .home2 {
-    padding: 0;
-    margin-top: 40px;
-  }
-  .home2 .laptop {
-    position: absolute;
-    right: 27%;
-    width: 291px;
-    height: 230px;
-  }
-  .home .phone {
-    position: absolute;
-
-    right: 52%;
-    z-index: 1;
-    width: 239px;
-    height: 267px;
+    padding: 20px 0 0 0;
+    margin: auto;
+    width: 80%;
   }
 }
 
@@ -386,31 +322,11 @@ Moblibe*/
     line-height: 1em;
     font-weight: 900;
     margin-bottom: 15px;
-  }
-  /* .home2-sekilas {
-    margin: auto;
-    position: absolute;
-    max-width: fit-content;
-  } */
-  .home2 img {
-    max-width: 130%;
+    padding: 0 0;
   }
   .home2 {
-    padding: 0;
-    margin-top: 40px;
-  }
-  .home2 .laptop {
-    position: absolute;
-    right: 9%;
-    width: 291px;
-    height: 230px;
-  }
-  .home .phone {
-    position: absolute;
-
-    right: 52%;
-    z-index: 1;
-    width: 239px;
-    height: 267px;
+    padding: 20px 0 0 0;
+    margin: auto;
+    width: 90%;
   }
 }
