@@ -215,10 +215,11 @@ main {
 .home-sekilas-tengah {
   margin-left: 50px;
 }
-
+.home2 {
+  display: flex;
+}
 .home2 img {
-  width: 60px;
-  height: 60px;
+  max-width: 100%;
 }
 .home2 p {
   font-size: 14px;
@@ -267,7 +268,7 @@ Moblibe*/
     top: 0px;
     right: 0px;
     left: 0px;
-    z-index: 10;
+    z-index: 100;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -306,6 +307,7 @@ Moblibe*/
   }
   .home {
     display: block;
+    background-color: #e1f186;
   }
   .home1 {
     text-align: center;
@@ -322,5 +324,31 @@ Moblibe*/
     line-height: 1em;
     font-weight: 900;
     margin-bottom: 15px;
+  }
+  .home2-sekilas {
+    margin: auto;
+    position: absolute;
+    max-width: fit-content;
+  }
+  .home2 img {
+    max-width: 130%;
+  }
+  .home2 {
+    padding: 0;
+    margin-top: 40px;
+  }
+  .home2 .laptop {
+    position: absolute;
+    right: 9%;
+    width: 291px;
+    height: 230px;
+  }
+  .home .phone {
+    position: absolute;
+
+    right: 52%;
+    z-index: 1;
+    width: 239px;
+    height: 267px;
   }
 }
