@@ -252,7 +252,7 @@ main {
 .bungkus-alasan {
   width: 50%;
   background-color: #a00d0d;
-  border-radius: 8px;
+  border-radius: 25px;
   box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.4);
 }
 .kelebihan {
@@ -265,9 +265,7 @@ main {
 }
 .kelebihan img {
   margin: 20px 0;
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
+  max-width: 17%;
 }
 .apa {
   background-color: #0d717a;
@@ -282,9 +280,8 @@ main {
 }
 .kelebihan1 img {
   margin: 20px 0;
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
+  max-width: 17%;
+  margin: auto;
 }
 /* Fonst Size Kelebihan */
 .kelebihan h2,
@@ -487,9 +484,18 @@ Moblibe*/
   .memilih-kami {
     display: block;
   }
-  .kelebihan {
+  .bungkus-alasan {
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    width: 90%;
+  }
+  .kelebihan,
+  .kelebihan1 {
     padding: 0;
-
     box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0);
+  }
+  .bungkus-alasan {
+    margin-top: 10px;
   }
 }
