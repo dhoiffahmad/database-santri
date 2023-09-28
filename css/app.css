@@ -218,7 +218,7 @@ main {
 .alasan {
   margin: auto;
   background-color: rgb(255, 56, 232);
-  text-align: center;
+
   align-items: center;
   height: 240px;
 }
@@ -255,7 +255,7 @@ main {
   width: 50%;
   background-color: #a00d0d;
   border-radius: 25px;
-  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
 }
 .kelebihan {
   gap: 20px;
@@ -294,6 +294,93 @@ main {
 .kelebihan1 p {
   font-size: small;
 }
+/* ARTIKEL 1 */
+.judul1 {
+  height: 100%;
+  margin: 20px 0;
+  border-bottom: 1px solid rgba(189, 189, 189, 0.542);
+  /* background-color: #ffcc1d; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.judul1 h2 {
+  font-size: 20px;
+}
+.judul1 p {
+  color: rgb(168, 168, 168);
+}
+.pembungkus {
+  min-height: 400px;
+  /* background-color: #043011; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.post {
+  /* background-color: #1dff6c; */
+  height: 100%;
+  min-width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(189, 189, 189, 0.542);
+}
+/* .card-post {
+} */
+.cover-post img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+.post-penulis img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.post-save img {
+  width: 100%;
+  height: 20px;
+}
+.post-body,
+.post-footer {
+  padding: 0 20px;
+}
+.post-body h2 {
+  font-size: 19px;
+}
+.post-body p {
+  font-size: 13px;
+}
+.post-penulis {
+  display: flex;
+  place-items: center;
+  height: 80px;
+}
+.post-ket {
+  padding: 10px;
+}
+.post-ket > h5 {
+  font-size: 11px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+.post-ket > p {
+  padding: 0;
+  margin: 0;
+  font-size: 11px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: end;
+}
+
+/* AKHIR ARTIKEL 1 */
 /* Laptop */
 @media screen and (max-width: 1439px) {
   nav {
@@ -363,9 +450,10 @@ main {
   }
   .alasan {
     height: 220px;
+    text-align: center;
   }
   .kelebihan {
-    box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
   }
 }
 
@@ -495,9 +583,12 @@ Moblibe*/
   .kelebihan,
   .kelebihan1 {
     padding: 0;
-    box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
   }
   .bungkus-alasan {
     margin-top: 10px;
+  }
+  .pembungkus {
+    display: block;
   }
 }
