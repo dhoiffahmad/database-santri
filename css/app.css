@@ -213,8 +213,10 @@ main {
   display: flex;
   flex-direction: row-reverse;
   gap: 40px;
+  margin: auto;
 }
 .alasan {
+  margin: auto;
   background-color: rgb(255, 56, 232);
   text-align: center;
   align-items: center;
