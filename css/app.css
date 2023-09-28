@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #abd5b8;
 }
@@ -189,7 +192,7 @@ main {
   width: 40%;
 }
 .home1 h2 {
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 .home1 strong {
   font-weight: 800;
@@ -203,6 +206,39 @@ main {
 }
 .home2 img {
   width: 100%;
+}
+/* Memilih Kami */
+
+.memilih-kami .alasan {
+  background-color: rgb(255, 56, 232);
+  text-align: center;
+  align-items: center;
+  height: 700px;
+}
+.memilih-kami .alasan img {
+  padding: 20px 0;
+}
+.memilih-kami .alasan h2 {
+  padding-bottom: 15px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 100px;
+  background-color: burlywood;
+  width: 120px;
+  height: 40px;
+  padding: 0;
+  margin: auto;
+  margin-top: 20px;
+}
+.contact a {
+  padding: 20px 0;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(223, 22, 22);
 }
 
 /* Laptop */
@@ -232,6 +268,9 @@ main {
   .home {
     display: block;
     background-color: #e1f186;
+    margin: auto;
+    padding-top: 10%;
+    height: 750px;
   }
   .home1 {
     text-align: center;
@@ -244,12 +283,12 @@ main {
     letter-spacing: 0.5em;
   }
   .home h2 {
-    padding: 0 80px;
+    padding: 0 70px;
   }
   .home2 {
-    padding: 20px 0 0 0;
+    padding: 5px 0 0 0;
     margin: auto;
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -258,7 +297,7 @@ Moblibe*/
 @media screen and (max-width: 767px) {
   nav {
     display: block;
-    padding: 30px 5%;
+    padding: 10px 5%;
   }
   nav .mainMenu {
     height: 100vh;
@@ -300,12 +339,15 @@ Moblibe*/
   main {
     width: 100%;
     height: 100vh;
-    padding: 109px 5% 0 5%;
+    padding: 69px 5% 0 5%;
     background-color: #0d717a;
   }
   .home {
     display: block;
     background-color: #e1f186;
+    margin: auto;
+    padding-top: 15%;
+    height: 630px;
   }
   .home1 {
     text-align: center;
@@ -315,18 +357,53 @@ Moblibe*/
   .home h1 {
     font-weight: 700;
     font-size: 14px;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.7em;
   }
   .home h2 {
     font-size: 35px;
     line-height: 1em;
     font-weight: 900;
     margin-bottom: 15px;
-    padding: 0 0;
+    padding: 0;
   }
+  /* .home1 h2 {
+    max-width: 350px;
+  } */
   .home2 {
     padding: 20px 0 0 0;
     margin: auto;
     width: 90%;
+    object-fit: cover;
+  }
+  .memilih-kami .alasan {
+    background-color: azure;
+    text-align: center;
+    align-items: center;
+    height: 700px;
+  }
+  .memilih-kami .alasan img {
+    padding: 20px 0;
+  }
+  .memilih-kami .alasan {
+    padding-bottom: 15px;
+  }
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100px;
+    background-color: burlywood;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .contact a {
+    padding: 20px 0;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(223, 22, 22);
   }
 }
