@@ -142,7 +142,7 @@ nav .logo {
 /* MAIN-
 MAIN */
 main {
-  height: 100vh;
+  height: 1900vh;
   padding: 109px 15% 0 15%;
   background-color: #ddfba2;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -151,7 +151,7 @@ main {
   margin: auto;
   padding-top: 12%;
   background-color: #f9cbcb;
-  height: 560px;
+  /* height: 560px; */
   display: flex;
   gap: 40px;
 }
@@ -188,32 +188,37 @@ main {
   background-color: #bcedaf;
   color: #a00d0d;
 }
+
 .home1 {
-  width: 40%;
+  width: 45%;
 }
 .home1 h2 {
   letter-spacing: -1px;
 }
-.home1 strong {
+.titik {
   font-weight: 800;
-  position: relative;
   color: rgb(252, 164, 1);
   margin: -9px;
 }
 .home2 {
-  display: flex;
-  width: 60%;
+  /* display: flex; */
+  width: 55%;
 }
 .home2 img {
   width: 100%;
 }
 /* Memilih Kami */
 
-.memilih-kami .alasan {
+.memilih-kami {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 40px;
+}
+.alasan {
   background-color: rgb(255, 56, 232);
   text-align: center;
   align-items: center;
-  height: 700px;
+  height: 240px;
 }
 .memilih-kami .alasan img {
   padding: 20px 0;
@@ -221,7 +226,7 @@ main {
 .memilih-kami .alasan h2 {
   padding-bottom: 15px;
 }
-.contact {
+.alasan .contact {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,13 +239,62 @@ main {
   margin: auto;
   margin-top: 20px;
 }
-.contact a {
+.alasan .contact a {
   padding: 20px 0;
   list-style: none;
   text-decoration: none;
   color: rgb(223, 22, 22);
 }
-
+.alasan {
+  width: 50%;
+  display: block;
+}
+.bungkus-alasan {
+  width: 50%;
+  background-color: #a00d0d;
+  border-radius: 8px;
+  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.4);
+}
+.kelebihan {
+  gap: 20px;
+  display: flex;
+  padding: 0;
+  padding: 8px 40px;
+  background-color: #70e5f2;
+  align-items: center;
+}
+.kelebihan img {
+  margin: 20px 0;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.apa {
+  background-color: #0d717a;
+  margin: 20px 0;
+}
+.kelebihan1 {
+  gap: 20px;
+  display: flex;
+  padding: 0;
+  padding: 8px 40px;
+  background-color: #abd5b8;
+}
+.kelebihan1 img {
+  margin: 20px 0;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+/* Fonst Size Kelebihan */
+.kelebihan h2,
+.kelebihan1 h2 {
+  font-size: 17px;
+}
+.kelebihan p,
+.kelebihan1 p {
+  font-size: small;
+}
 /* Laptop */
 @media screen and (max-width: 1439px) {
   nav {
@@ -248,6 +302,21 @@ main {
   }
   main {
     padding: 109px 10% 0 10%;
+  }
+  .memilih-kami {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .bungkus-alasan {
+    width: 100%;
+  }
+  .kelebihan {
+    display: flex;
+    width: 100%;
+  }
+  .alasan {
+    display: block;
+    width: 100%;
   }
 }
 /* Tablet */
@@ -270,7 +339,7 @@ main {
     background-color: #e1f186;
     margin: auto;
     padding-top: 10%;
-    height: 750px;
+    /* height: 750px; */
   }
   .home1 {
     text-align: center;
@@ -289,6 +358,15 @@ main {
     padding: 5px 0 0 0;
     margin: auto;
     width: 90%;
+  }
+  .memilih-kami {
+    display: block;
+  }
+  .alasan {
+    height: 220px;
+  }
+  .kelebihan {
+    box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0);
   }
 }
 
@@ -347,7 +425,7 @@ Moblibe*/
     background-color: #e1f186;
     margin: auto;
     padding-top: 15%;
-    height: 630px;
+    /* height: 630px; */
   }
   .home1 {
     text-align: center;
@@ -366,20 +444,20 @@ Moblibe*/
     margin-bottom: 15px;
     padding: 0;
   }
-  /* .home1 h2 {
-    max-width: 350px;
-  } */
   .home2 {
     padding: 20px 0 0 0;
     margin: auto;
     width: 90%;
     object-fit: cover;
   }
+  .memilih-kami {
+    justify-content: center;
+  }
   .memilih-kami .alasan {
     background-color: azure;
     text-align: center;
     align-items: center;
-    height: 700px;
+    height: 260px;
   }
   .memilih-kami .alasan img {
     padding: 20px 0;
@@ -405,5 +483,13 @@ Moblibe*/
     list-style: none;
     text-decoration: none;
     color: rgb(223, 22, 22);
+  }
+  .memilih-kami {
+    display: block;
+  }
+  .kelebihan {
+    padding: 0;
+
+    box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0);
   }
 }
