@@ -167,7 +167,7 @@ main {
   margin-bottom: 15px;
 }
 .home p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5em;
   margin-bottom: 0;
 }
@@ -218,15 +218,18 @@ main {
 .alasan {
   margin: auto;
   background-color: rgb(255, 56, 232);
-
   align-items: center;
-  height: 240px;
 }
 .memilih-kami .alasan img {
   padding: 20px 0;
 }
 .memilih-kami .alasan h2 {
   padding-bottom: 15px;
+  font-size: 35px;
+}
+.memilih-kami .alasan p {
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 .alasan .contact {
   display: flex;
@@ -238,10 +241,8 @@ main {
   width: 120px;
   height: 40px;
   padding: 0;
-  margin-top: 20px;
 }
 .alasan .contact a {
-  padding: 20px 0;
   list-style: none;
   text-decoration: none;
   color: rgb(223, 22, 22);
@@ -287,11 +288,12 @@ main {
 /* Fonst Size Kelebihan */
 .kelebihan h2,
 .kelebihan1 h2 {
-  font-size: 17px;
+  font-weight: 700;
+  font-size: 20px;
 }
 .kelebihan p,
 .kelebihan1 p {
-  font-size: small;
+  font-size: 16px;
 }
 /* ARTIKEL 1 */
 .judul1 {
