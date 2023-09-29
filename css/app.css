@@ -396,6 +396,10 @@ main {
   padding-left: 55px;
   background-color: #413fc8;
 }
+.teks-banner h1 {
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
 .foto-banner {
   margin: 20px 0;
   padding-right: 55px;
@@ -630,8 +634,18 @@ Moblibe*/
     padding: 0;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
   }
-
   .pembungkus {
     display: block;
+  }
+  .banner {
+    padding: 20px;
+  }
+  .teks-banner {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .foto-banner {
+    display: none;
   }
 }
