@@ -484,7 +484,7 @@ main {
     display: block;
   }
   .alasan {
-    height: 220px;
+    /* height: 220px; */
     text-align: center;
   }
   .kelebihan {
@@ -499,6 +499,7 @@ main {
     justify-content: center;
     display: block;
     padding: 20px;
+    border-radius: 25px;
   }
   .teks-banner {
     width: 100%;
@@ -607,7 +608,7 @@ Moblibe*/
     background-color: azure;
     text-align: center;
     align-items: center;
-    height: 260px;
+    /* height: 260px; */
   }
   .memilih-kami .alasan img {
     padding: 20px 0;
@@ -652,14 +653,30 @@ Moblibe*/
     display: block;
   }
   .banner {
-    padding: 20px;
+    display: flex;
+    background-color: #0d717a;
+    border-radius: 20px;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
   }
   .teks-banner {
     width: 100%;
     padding: 0;
-    text-align: center;
+    text-align: left;
+    font-size: 10px;
+  }
+  .teks-banner h1 {
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    padding: 0;
+    line-height: 25px;
+  }
+  .teks-banner p {
+    display: none;
   }
   .foto-banner {
-    display: none;
+    /* display: none; */
   }
 }
