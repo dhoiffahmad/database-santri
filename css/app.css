@@ -213,7 +213,7 @@ main {
   display: flex;
   flex-direction: row-reverse;
   gap: 40px;
-  margin: auto;
+  margin: 40px 0;
 }
 .alasan {
   margin: auto;
@@ -455,6 +455,9 @@ main {
   .kelebihan {
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
   }
+  .pembungkus {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* RESPONSIVE 
@@ -585,9 +588,7 @@ Moblibe*/
     padding: 0;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
   }
-  .bungkus-alasan {
-    margin-top: 10px;
-  }
+
   .pembungkus {
     display: block;
   }
