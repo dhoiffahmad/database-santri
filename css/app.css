@@ -395,7 +395,7 @@ main {
 }
 .teks-banner {
   width: 55%;
-  padding-left: 55px;
+  padding-right: 55px;
   background-color: #b5b4fc;
 }
 .teks-banner h1 {
@@ -408,7 +408,7 @@ main {
 .foto-banner {
   width: 35%;
   margin: 20px 0;
-  padding-right: 55px;
+  padding-left: 55px;
 }
 
 .foto-banner img {
@@ -448,7 +448,6 @@ main {
     display: block;
     padding: 30px 10%;
   }
-
   .cari-daftar {
     display: none;
   }
@@ -456,7 +455,6 @@ main {
     background-color: #a00d0d;
     padding: 109px 10% 0 10%;
   }
-
   .home {
     display: block;
     background-color: #e1f186;
@@ -498,21 +496,33 @@ main {
 
   /* BANNER */
   .banner {
+    justify-content: center;
+    display: block;
     padding: 20px;
   }
   .teks-banner {
     width: 100%;
-    padding: 20px 55px;
+    padding: 20px;
     text-align: center;
   }
   .foto-banner {
-    display: none;
+    width: 35%;
+    margin: auto;
+    padding: 0;
+    /* display: none; */
+  }
+  .teks-banner h1 {
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    font-size: 30px;
+    padding-bottom: 20px;
+    line-height: 40px;
   }
 }
 
 /* RESPONSIVE 
 Moblibe*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   nav {
     display: block;
     padding: 10px 5%;
