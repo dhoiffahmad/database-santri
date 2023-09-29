@@ -442,7 +442,8 @@ main {
 
 /* Awal Footer */
 footer {
-  margin: 60px 0;
+  margin-top: 60px;
+  margin-bottom: 30px;
   font-family: "quicksand", sans-serif;
   font-weight: 500;
   font-size: 16px;
