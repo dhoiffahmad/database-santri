@@ -222,11 +222,11 @@ main {
   align-items: center;
 }
 .memilih-kami .alasan img {
-  padding: 20px 0;
+  padding-bottom: 6px;
 }
 .memilih-kami .alasan h2 {
   padding-bottom: 15px;
-  font-size: 35px;
+  font-size: 30px;
 }
 .memilih-kami .alasan p {
   font-size: 20px;
@@ -295,7 +295,25 @@ main {
 .kelebihan1 p {
   font-size: 16px;
 }
+
 /* ARTIKEL 1 */
+.judul-fitur img {
+  padding-bottom: 6px;
+}
+.judul-fitur {
+  background-color: antiquewhite;
+  justify-content: center;
+  padding: 0;
+  margin: 40px 0;
+  text-align: center;
+}
+.judul-fitur h2 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.judul-fitur p {
+  font-size: 18px;
+}
 .judul1 {
   height: 100%;
   margin: 20px 0;
@@ -618,7 +636,6 @@ Moblibe*/
     /* height: 260px; */
   }
   .memilih-kami .alasan img {
-    padding: 20px 0;
   }
   .memilih-kami .alasan {
     padding-bottom: 15px;
