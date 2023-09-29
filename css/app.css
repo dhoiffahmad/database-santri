@@ -380,6 +380,36 @@ main {
 }
 
 /* AKHIR ARTIKEL 1 */
+
+/* Awal Baner */
+.banner {
+  display: flex;
+  background-color: #0d717a;
+  border-radius: 30px;
+  margin: 55px 0 0 0;
+  max-height: 260px;
+  align-items: center;
+  gap: 60px;
+}
+.teks-banner {
+  width: 65%;
+  padding-left: 55px;
+  background-color: #413fc8;
+}
+.foto-banner {
+  margin: 20px 0;
+  padding-right: 55px;
+}
+
+.foto-banner img {
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+}
+
+/* Awal Baner */
+
+/* RESPONSIVE */
 /* Laptop */
 @media screen and (max-width: 1439px) {
   nav {
@@ -456,6 +486,19 @@ main {
   }
   .pembungkus {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* BANNER */
+  .banner {
+    padding: 20px;
+  }
+  .teks-banner {
+    width: 100%;
+    padding: 20px 55px;
+    text-align: center;
+  }
+  .foto-banner {
+    display: none;
   }
 }
 
