@@ -372,6 +372,7 @@ main {
 .post-body,
 .post-footer {
   padding: 0 20px;
+  padding-bottom: 14px;
 }
 .post-body h2 {
   font-size: 22x;
@@ -593,6 +594,11 @@ footer {
   }
   .pembungkus {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .post-body,
+  .post-footer {
+    padding: 0 30px;
+    padding-bottom: 14px;
   }
 
   /* BANNER */
