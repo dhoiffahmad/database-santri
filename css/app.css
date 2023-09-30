@@ -148,9 +148,11 @@ nav .logo {
 /* MAIN-
 MAIN */
 main {
-  padding: 109px 15% 0 15%;
   background-color: #ddfba2;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.content {
+  padding: 109px 15% 0 15%;
 }
 .home {
   margin: auto;
@@ -158,6 +160,7 @@ main {
   background-color: #f9cbcb;
   display: flex;
   gap: 40px;
+  max-width: 1250px;
 }
 .home h1 {
   font-weight: 700;
@@ -491,8 +494,11 @@ footer {
   color: white;
   padding: 20px;
 }
-
 /* Akhir Footer */
+
+/* Awal Aside (Profile) */
+
+/* Akhir Aside */
 
 /* RESPONSIVE */
 /* Laptop */
@@ -517,6 +523,9 @@ footer {
   .alasan {
     display: block;
     width: 100%;
+  }
+  .post-body h2 {
+    font-size: 22px;
   }
 
   /* Footer */
@@ -758,6 +767,12 @@ Moblibe*/
   }
   .pembungkus {
     display: block;
+  }
+  .post-body h2 {
+    font-size: 20px;
+  }
+  .post-body p {
+    display: none;
   }
   .banner {
     display: flex;
