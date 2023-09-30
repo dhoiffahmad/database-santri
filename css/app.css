@@ -415,7 +415,7 @@ main {
   display: flex;
   background-color: #0d717a;
   border-radius: 30px;
-  margin: 55px 0 0 0;
+  margin: 55px 0;
 
   align-items: center;
   gap: 60px;
@@ -498,7 +498,16 @@ footer {
 /* Akhir Footer */
 
 /* Awal Aside (Profile) */
-
+.isi-about {
+  text-align: center;
+  margin: auto;
+}
+.isi-about img {
+  max-width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  object-fit: cover;
+}
 /* Akhir Aside */
 
 /* RESPONSIVE */
