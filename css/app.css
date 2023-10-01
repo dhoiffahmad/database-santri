@@ -574,6 +574,9 @@ aside {
   .post-body h2 {
     font-size: 22px;
   }
+  .bungkus-banner {
+    padding: 0 10%;
+  }
 
   /* Footer */
   .tampilan-footer {
@@ -851,13 +854,17 @@ Moblibe*/
   .post-body p {
     display: none;
   }
+  .bungkus-banner {
+    padding: 0 5%;
+  }
   .banner {
     display: flex;
     background-color: #0d717a;
     border-radius: 20px;
     align-items: center;
     gap: 20px;
-    padding: 10px 20px;
+
+    margin: auto;
   }
   .teks-banner {
     width: 100%;
@@ -887,5 +894,11 @@ Moblibe*/
     display: block;
     padding: 30px 5%;
     gap: 30px;
+  }
+  .isi-about {
+    padding: 20px;
+  }
+  .isi-about img {
+    width: 180px;
   }
 }
