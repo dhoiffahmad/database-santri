@@ -222,13 +222,13 @@ main {
 .memilih-kami {
   display: flex;
   flex-direction: row-reverse;
-  gap: 40px;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  padding: 50px 15% 60px 15%;
+  gap: 70px;
+  background-color: white;
 }
 .alasan {
   margin: auto;
-  background-color: rgb(255, 56, 232);
+  /* background-color: rgb(255, 56, 232); */
   align-items: center;
 }
 .memilih-kami .alasan img {
@@ -248,15 +248,16 @@ main {
   justify-content: center;
   text-align: center;
   border-radius: 100px;
-  background-color: burlywood;
+  background-color: rgb(252, 164, 1);
   width: 120px;
-  height: 40px;
+  height: 50px;
   padding: 0;
 }
 .alasan .contact a {
   list-style: none;
   text-decoration: none;
-  color: rgb(223, 22, 22);
+  color: black;
+  font-weight: bold;
 }
 .alasan {
   width: 50%;
@@ -264,7 +265,7 @@ main {
 }
 .bungkus-alasan {
   width: 50%;
-  background-color: #a00d0d;
+  background-color: white;
   border-radius: 25px;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
 }
@@ -272,23 +273,20 @@ main {
   gap: 20px;
   display: flex;
   padding: 0;
-  padding: 8px 40px;
+  padding: 30px 40px;
   align-items: center;
 }
 .kelebihan img {
   margin: 20px 0;
   max-width: 17%;
 }
-.apa {
-  background-color: #0d717a;
-  margin: 20px 0;
-}
+
 .kelebihan1 {
   gap: 20px;
   display: flex;
   padding: 0;
-  padding: 8px 40px;
-  background-color: #abd5b8;
+  padding: 0 40px;
+  /* background-color: #abd5b8; */
 }
 .kelebihan1 img {
   margin: 20px 0;
@@ -532,8 +530,17 @@ aside {
     padding: 180px 10% 30px 10%;
   }
   .memilih-kami {
-    display: flex;
-    flex-direction: row-reverse;
+    display: block;
+  }
+  .contact {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .bungkus-alasan {
+    margin-top: 40px;
+  }
+  .alasan {
+    text-align: center;
   }
   .bungkus-alasan {
     width: 100%;
@@ -545,6 +552,7 @@ aside {
   .alasan {
     display: block;
     width: 100%;
+    text-align: center;
   }
   .post-body h2 {
     font-size: 22px;
@@ -603,7 +611,6 @@ aside {
     margin-top: 40px;
   }
   .alasan {
-    /* height: 220px; */
     text-align: center;
   }
   .kelebihan {
@@ -784,8 +791,7 @@ Moblibe*/
     justify-content: center;
     width: 100%;
   }
-  .kelebihan,
-  .kelebihan1 {
+  .kelebihan {
     padding: 0;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
   }
