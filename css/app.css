@@ -498,15 +498,21 @@ footer {
 /* Akhir Footer */
 
 /* Awal Aside (Profile) */
+aside {
+}
 .isi-about {
   text-align: center;
   margin: auto;
+  margin: 55px 0;
+  background-color: aliceblue;
+  padding: 0 80px;
 }
 .isi-about img {
-  max-width: 400px;
-  height: 400px;
   border-radius: 100%;
   object-fit: cover;
+}
+.isi-about p {
+  max-width: 700px;
 }
 /* Akhir Aside */
 
