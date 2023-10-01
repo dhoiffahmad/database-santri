@@ -17,12 +17,12 @@ header {
   width: 100%;
 }
 nav {
-  background: white;
+  background: rgb(0, 71, 18);
   color: rgb(36, 36, 36);
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 30px 15%;
+  justify-content: space-between;
   font-family: "quicksand", sans-serif;
   font-weight: 500;
   font-size: 22px;
@@ -50,6 +50,8 @@ nav div img {
 
 /*  */
 .cari-daftar {
+  border: 2px solid white;
+  border-radius: 50px;
 }
 
 .cari-daftar li {
@@ -63,8 +65,7 @@ nav div img {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 15px;
-  background-color: rgb(0, 161, 40);
+
   padding: 2px 10px;
 }
 .daftar a,
@@ -102,7 +103,7 @@ nav .mainMenu li a {
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: white;
   transition: 0.2s ease;
   border-radius: 100px;
 }
@@ -150,13 +151,12 @@ MAIN */
 main {
   background-color: #ddfba2;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 109px 15% 0 15%;
 }
 .content {
 }
 .home {
   margin: auto;
-  padding-top: 12%;
+  padding: 180px 15% 20px 15%;
   background-color: #f9cbcb;
   display: flex;
   gap: 40px;
@@ -524,8 +524,8 @@ aside {
   nav {
     padding: 30px 10%;
   }
-  main {
-    padding: 109px 10% 0 10%;
+  .home {
+    padding: 180px 10% 30px 10%;
   }
   .memilih-kami {
     display: flex;
@@ -563,16 +563,12 @@ aside {
   .cari-daftar {
     display: none;
   }
-  main {
-    background-color: #687b4d;
-    padding: 88px 10% 0 10%;
-  }
+
   .home {
+    padding: 140px 10% 0 10%;
     display: block;
     background-color: #e1f186;
     margin: auto;
-    padding-top: 10%;
-    /* height: 750px; */
   }
   .home1 {
     text-align: center;
@@ -692,6 +688,7 @@ Moblibe*/
   nav .openMenu {
     display: block;
     margin: 0;
+    color: white;
   }
   nav .mainMenu li a:hover {
     background: none;
@@ -705,18 +702,14 @@ Moblibe*/
   .cari-daftar li {
     display: none;
   }
-  main {
-    width: 100%;
-
-    padding: 69px 5% 0 5%;
-    background-color: #0d717a;
+  .home {
   }
   .home {
     display: block;
-    background-color: #e1f186;
+    padding: 120px 5% 0 5%;
+    background-color: #0d717a;
+
     margin: auto;
-    padding-top: 15%;
-    /* height: 630px; */
   }
   .home1 {
     text-align: center;
@@ -736,7 +729,6 @@ Moblibe*/
     padding: 0;
   }
   .home2 {
-    padding: 20px 0 0 0;
     margin: auto;
     width: 90%;
     object-fit: cover;
