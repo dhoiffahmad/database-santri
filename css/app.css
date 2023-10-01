@@ -613,9 +613,7 @@ aside {
   .alasan {
     text-align: center;
   }
-  .kelebihan {
-    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
-  }
+
   .pembungkus {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -790,10 +788,6 @@ Moblibe*/
     padding: 20px;
     justify-content: center;
     width: 100%;
-  }
-  .kelebihan {
-    padding: 0;
-    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
   }
   .pembungkus {
     display: block;
