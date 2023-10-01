@@ -152,7 +152,6 @@ main {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .content {
-  padding: 109px 15% 0 15%;
 }
 .home {
   margin: auto;
@@ -160,7 +159,6 @@ main {
   background-color: #f9cbcb;
   display: flex;
   gap: 40px;
-  max-width: 1250px;
 }
 .home h1 {
   font-weight: 700;
@@ -496,7 +494,9 @@ footer {
   padding: 20px;
 }
 /* Akhir Footer */
-
+.content {
+  padding: 30px 15%;
+}
 /* Awal Aside (Profile) */
 aside {
 }
@@ -508,11 +508,12 @@ aside {
   padding: 0 80px;
 }
 .isi-about img {
+  max-width: 300px;
   border-radius: 100%;
   object-fit: cover;
 }
 .isi-about p {
-  max-width: 700px;
+  /* max-width: 700px; */
 }
 /* Akhir Aside */
 
