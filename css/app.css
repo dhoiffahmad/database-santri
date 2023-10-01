@@ -548,6 +548,10 @@ aside {
     display: flex;
     width: 100%;
   }
+  .kelebihan img,
+  .kelebihan1 img {
+    max-width: 10%;
+  }
   .alasan {
     display: block;
     width: 100%;
@@ -756,10 +760,12 @@ Moblibe*/
     padding: 0 15px;
     /* height: 260px; */
   }
-  .memilih-kami .alasan h2 {
+  .memilih-kami .alasan h2,
+  .judul-fitur h2 {
     font-size: 25px;
   }
-  .memilih-kami .alasan p {
+  .memilih-kami .alasan p,
+  .judul-fitur p {
     font-size: 18px;
     line-height: 1.2em;
     margin-bottom: 0;
