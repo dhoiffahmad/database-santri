@@ -304,6 +304,13 @@ main {
 }
 
 /* ARTIKEL 1 */
+.fitur {
+  padding: 0 15%;
+  background-color: #226e7f;
+}
+.padding-fitur {
+  padding: 50px 0;
+}
 .judul-fitur img {
   padding-bottom: 6px;
 }
@@ -311,7 +318,7 @@ main {
   background-color: antiquewhite;
   justify-content: center;
   padding: 0;
-  margin: 40px 0;
+  margin-bottom: 40px;
   text-align: center;
 }
 .judul-fitur h2 {
