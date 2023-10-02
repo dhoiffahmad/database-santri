@@ -288,7 +288,7 @@ main {
   /* background-color: #abd5b8; */
 }
 .kelebihan1 img {
-  margin: 20px 0;
+  /* margin: 20px 0; */
   max-width: 17%;
   margin: auto;
 }
@@ -806,9 +806,15 @@ Moblibe*/
     padding: 0;
     align-items: flex-start;
   }
-
+  .kelebihan img,
+  .kelebihan1 img {
+    max-width: 18%;
+  }
   .kelebihan1 {
     margin: 14px 0;
+  }
+  .kelebihan1 img {
+    margin: 0;
   }
   .contact {
     display: flex;
