@@ -419,7 +419,7 @@ main {
 /* Awal Baner */
 .bungkus-banner {
   padding: 30px 15%;
-  background-color: rgb(179, 0, 0);
+  background-color: white;
 }
 .banner {
   display: flex;
