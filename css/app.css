@@ -107,7 +107,7 @@ nav .mainMenu li a {
   border-radius: 100px;
 }
 nav .mainMenu li a:hover {
-  background: rgb(214, 237, 219);
+  border-bottom: 1px solid (252, 164, 1);
 }
 nav .openMenu {
   font-size: 2rem;
@@ -712,8 +712,8 @@ Moblibe*/
   nav .mainMenu .closeMenu {
     display: block;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 14px;
+    right: 28px;
   }
   nav .closeMenu i {
     color: white;
