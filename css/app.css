@@ -419,7 +419,7 @@ main {
 /* Awal Baner */
 .bungkus-banner {
   padding: 30px 15%;
-  background-color: white;
+  background-color: rgb(179, 0, 0);
 }
 .banner {
   display: flex;
@@ -512,21 +512,27 @@ footer {
 aside {
 }
 .isi-about {
+  padding: 30px 15%;
   text-align: center;
   margin: auto;
-  margin: 55px 0;
-  background-color: aliceblue;
-  padding: 0 80px;
+
+  background-color: white;
 }
 .isi-about img {
-  max-width: 300px;
+  max-width: 200px;
   border-radius: 100%;
   object-fit: cover;
 }
 .isi-about h3 {
-  padding: 20px;
-  border-bottom: 1px solid rgb(164, 164, 164);
+  padding: 10px 20px 0px 20px;
   font-size: 30px;
+}
+.isi-about h5 {
+  font-size: medium;
+  font-weight: 500;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(142, 142, 142);
+  margin: 0 5%;
 }
 .isi-about p {
   padding-top: 15px;
@@ -578,7 +584,8 @@ aside {
     font-size: 22px;
   }
   .bungkus-banner {
-    padding: 0 10%;
+    padding: 30px 10%;
+    background-color: rgb(234, 11, 145);
   }
 
   /* Footer */
@@ -907,7 +914,7 @@ Moblibe*/
     gap: 30px;
   }
   .isi-about {
-    padding: 20px;
+    padding: 40px 20px;
   }
   .isi-about img {
     width: 180px;
