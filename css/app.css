@@ -189,12 +189,14 @@ main {
   border-radius: 100px;
   font-weight: bold;
 }
+.tombol a {
+  color: black;
+  text-decoration: none;
+}
 .tombol1 {
   background-color: rgb(252, 164, 1);
-  color: black;
 }
 .tombol2 {
-  color: black;
   border: 1px solid white;
 }
 
@@ -616,6 +618,9 @@ aside {
     padding: 0 15px;
     width: 100%;
   }
+  /* #t1 {
+    display: none;
+  } */
   .home h1 {
     font-weight: 700;
     font-size: 16px;
