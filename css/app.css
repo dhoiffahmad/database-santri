@@ -65,8 +65,7 @@ nav div img {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  padding: 2px 10px;
+  padding: 2px 15px;
 }
 .daftar a,
 .daftar i {
@@ -225,6 +224,7 @@ main {
   padding: 50px 15% 60px 15%;
   gap: 70px;
   background-color: white;
+  /* background-image: url(img/shape-background.png); */
 }
 .alasan {
   margin: auto;
@@ -455,8 +455,6 @@ main {
 
 /* Awal Footer */
 footer {
-  margin-top: 60px;
-  margin-bottom: 30px;
   font-family: "quicksand", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -515,7 +513,7 @@ aside {
   padding: 30px 15%;
   text-align: center;
   margin: auto;
-
+  padding-bottom: 80px;
   background-color: white;
 }
 .isi-about img {
@@ -524,6 +522,7 @@ aside {
   object-fit: cover;
 }
 .isi-about h3 {
+  color: rgb(0, 71, 18);
   padding: 10px 20px 0px 20px;
   font-size: 30px;
 }
@@ -585,7 +584,7 @@ aside {
   }
   .bungkus-banner {
     padding: 30px 10%;
-    background-color: rgb(234, 11, 145);
+    /* background-color: rgb(234, 11, 145); */
   }
 
   /* Footer */
@@ -914,7 +913,8 @@ Moblibe*/
     gap: 30px;
   }
   .isi-about {
-    padding: 40px 20px;
+    padding: 40px 7%;
+    padding-bottom: 80px;
   }
   .isi-about img {
     width: 180px;
