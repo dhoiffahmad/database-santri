@@ -643,12 +643,16 @@ aside {
     padding: 20px 10%;
   }
   .cari-daftar {
-    background-color: yellow;
-    /* display: none; */
-    border-color: transparent;
+    background-color: #00f154;
+
+    bottom: 40px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
     position: fixed;
     bottom: 20px;
     right: 20px;
+    border: 0;
   }
   .cari-daftar a {
     display: none;
