@@ -27,6 +27,7 @@ nav {
   font-weight: 500;
   font-size: 22px;
   transition: background-color 0.4s ease-in-out;
+  height: 100px;
 }
 nav.scrolled {
   background-color: aquamarine;
@@ -80,6 +81,7 @@ nav div img {
 .daftar i {
   color: white;
   padding: 5px;
+  text-decoration: none;
 }
 .daftar i {
   font-size: 1.5em;
@@ -113,10 +115,22 @@ nav .mainMenu li a {
   text-decoration: none;
   color: white;
   transition: 0.2s ease;
-  border-radius: 100px;
+}
+nav .mainMenu li a {
+  border-bottom: 1px solid (252, 164, 1);
+  border-color: aliceblue;
+}
+/* nav .mainMenu li a:hover {
+  color: rgb(255, 123, 0);
+} */
+.mainMenu ul li {
+  text-align: center;
 }
 nav .mainMenu li a:hover {
-  border-bottom: 1px solid (252, 164, 1);
+  padding: 0;
+  border-bottom: 1px solid burlywood;
+  margin: 0;
+  border-radius: 0;
 }
 nav .openMenu {
   font-size: 2rem;
@@ -157,7 +171,7 @@ nav .logo {
 /* MAIN-
 MAIN */
 main {
-  background-color: #ddfba2;
+  background-color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #content {
@@ -447,7 +461,7 @@ main {
 }
 .teks-banner {
   color: white;
-  width: 55%;
+  width: 65%;
   padding-right: 55px;
   /* background-color: #b5b4fc; */
 }
@@ -459,7 +473,7 @@ main {
   line-height: 40px;
 }
 .foto-banner {
-  width: 35%;
+  width: 25%;
   margin: 20px 0;
   padding-left: 55px;
 }
@@ -765,6 +779,12 @@ Moblibe*/
   nav .mainMenu li a:hover {
     background: none;
     color: rgb(255, 123, 0);
+  }
+  .mainMenu ul {
+    flex-direction: column;
+  }
+  .mainMenu ul li {
+    text-align: center;
   }
   .icons i {
     display: inline-block;
