@@ -124,6 +124,15 @@ nav .mainMenu li a:hover {
   background: none;
   color: rgb(255, 123, 0);
 }
+/* .daftar:hover {
+  border-color: rgb(255, 123, 0);
+} */
+/* .daftar i:hover {
+  color: rgb(255, 123, 0);
+}
+.daftar a:hover {
+  color: rgb(255, 123, 0);
+} */
 .mainMenu ul li {
   text-align: center;
 }
