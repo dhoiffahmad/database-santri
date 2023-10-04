@@ -430,9 +430,9 @@ main {
 .post-ket {
   padding: 10px;
 }
-.post-ket > h5 {
-  font-size: 11px;
-  font-weight: normal;
+.post-ket .author {
+  font-size: 10px;
+  font-weight: 600;
   margin: 0;
   padding: 0;
 }
@@ -548,7 +548,6 @@ aside {
   padding: 30px;
   text-align: center;
   margin: auto;
-  padding-bottom: 80px;
   background-color: white;
 }
 .isi-about img {
@@ -556,12 +555,12 @@ aside {
   border-radius: 100%;
   object-fit: cover;
 }
-.isi-about h3 {
+.isi-about h2 {
   color: rgb(0, 71, 18);
   padding: 10px 20px 0px 20px;
   font-size: 30px;
 }
-.isi-about h5 {
+.isi-about .sub-h3 {
   font-size: medium;
   font-weight: 500;
   padding-bottom: 20px;
@@ -572,7 +571,7 @@ aside {
   max-width: 700px;
 }
 
-.isi-about p {
+.isi-about .keterangan {
   padding-top: 15px;
   font-size: 17px;
 }
@@ -730,7 +729,11 @@ aside {
     line-height: 40px;
   }
   .isi-about {
-    padding: 30px;
+    max-width: 100%;
+    padding: 20px 10%;
+  }
+  .isi-about .keterangan {
+    font-size: 15px;
   }
   /* Footer */
   .tampilan-footer {
