@@ -456,10 +456,6 @@ main {
   text-align: center;
   background-color: rgba(14, 139, 45, 0.297);
 }
-.tertarik h1 {
-  font-size: 20px;
-  font-weight: 700;
-}
 .tertarik p {
   font-size: 35px;
   font-weight: 500;
@@ -486,12 +482,15 @@ main {
 /* Akhir Article 2 */
 .pelanggan {
   display: flex;
-  padding: 30px 15%;
-  gap: 20px;
+  padding: 90px 15%;
+  gap: 40px;
+}
+.judul-pelanggan {
+  width: 40%;
 }
 .pelanggan h2 {
-  width: 40%;
-  font-size: 40px;
+  font-size: 35px;
+  line-height: 40px;
 }
 .pelanggan p {
   width: 60%;
@@ -554,10 +553,11 @@ footer {
 aside {
 }
 .isi-about {
-  padding: 30px;
+  padding: 0 15% 80px 15%;
   text-align: center;
   margin: auto;
   background-color: white;
+  /* max-width: 700px; */
 }
 .isi-about img {
   max-width: 200px;
@@ -576,12 +576,9 @@ aside {
   border-bottom: 1px solid rgb(142, 142, 142);
   margin: 0 5%;
 }
-.isi-about {
-  max-width: 700px;
-}
 
 .isi-about .keterangan {
-  padding-top: 15px;
+  padding-top: 16px;
   font-size: 17px;
 }
 /* Akhir Aside */
@@ -630,11 +627,18 @@ aside {
   .post-body h2 {
     font-size: 22px;
   }
-  .bungkus-banner {
-    padding: 30px 10%;
-    /* background-color: rgb(234, 11, 145); */
+  /* Artikel 2 */
+  .pelanggan {
+    padding: 90px 10%;
+  }
+  .pelanggan p {
+    font-size: 20px;
   }
 
+  /* Akhir Artikel 2 */
+  .isi-about {
+    padding: 0 10% 80px 10%;
+  }
   /* Footer */
   .tampilan-footer {
     background-color: rgb(0, 71, 18);
@@ -714,22 +718,28 @@ aside {
 
   /* Awal Article 2 */
 
-  .tertarik h1 {
-    font-size: 1px;
-  }
   .tertarik p {
     font-size: 30px;
     max-width: 450px;
   }
-
+  .pelanggan {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .pelanggan .judul-pelanggan h2 {
+    font-size: 25px;
+  }
+  .judul-pelanggan,
+  .pelanggan p {
+    width: 100%;
+  }
   /* Akhir Article 2 */
 
   .isi-about {
-    max-width: 100%;
-    padding: 20px 10%;
+    padding: 0 10% 80px 10%;
   }
   .isi-about .keterangan {
-    font-size: 15px;
+    font-size: 16px;
   }
   /* Footer */
   .tampilan-footer {
@@ -946,9 +956,7 @@ Moblibe*/
   .tertarik {
     padding: 70px 7%;
   }
-  .tertarik h1 {
-    font-size: 15px;
-  }
+
   .tertarik p {
     font-size: 22px;
     max-width: 320px;
