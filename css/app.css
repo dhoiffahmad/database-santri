@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #abd5b8;
+  /* background-color: #abd5b8; */
 }
 header {
   position: fixed;
@@ -26,18 +26,11 @@ nav {
   font-family: "quicksand", sans-serif;
   font-weight: 500;
   font-size: 22px;
-  height: 100px;
+  height: 80px;
   transition: all;
   transition-duration: 300ms;
 }
-/* nav.scrolled {
-  background-color: rgb(255, 245, 46);
-  opacity: 0.98;
-}
-nav a,
-nav i {
-  transition: color 0.4s ease-in-out;
-} */
+
 /* Baru */
 nav div img {
   width: 150px;
@@ -81,11 +74,11 @@ nav div img {
 .daftar a,
 .daftar i {
   color: white;
-  padding: 5px;
+  padding: 2px;
   text-decoration: none;
 }
 .daftar i {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .cari {
   display: flex;
@@ -190,7 +183,7 @@ main {
   padding: 180px 15% 40px 15%;
   background-color: rgb(0, 71, 18);
   display: flex;
-  gap: 40px;
+  gap: 20px;
 }
 .home h1 {
   font-weight: 700;
@@ -248,6 +241,7 @@ main {
   width: 55%;
 }
 .home2 img {
+  padding-top: 20px;
   width: 100%;
 }
 /* Memilih Kami */
@@ -255,7 +249,7 @@ main {
 .memilih-kami {
   display: flex;
   flex-direction: row-reverse;
-  padding: 50px 15% 0 15%;
+  padding: 100px 15% 0 15%;
   gap: 70px;
   background-color: white;
   /* background-image: url(img/shape-background.png); */
@@ -301,7 +295,7 @@ main {
   width: 50%;
   background-color: white;
   border-radius: 25px;
-  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
 }
 .kelebihan {
   gap: 20px;
@@ -339,7 +333,7 @@ main {
 
 /* ARTIKEL 1 */
 .fitur {
-  padding: 140px 15% 0 15%;
+  padding: 120px 15% 0 15%;
   background-color: white;
 }
 
@@ -520,7 +514,7 @@ main {
 aside {
 }
 .isi-about {
-  padding: 140px 15% 90px 15%;
+  padding: 120px 15% 90px 15%;
   text-align: center;
   margin: auto;
   background-color: white;
@@ -635,7 +629,7 @@ ul li {
     margin-top: 20px;
   }
   .fitur {
-    padding: 120px 10% 0 10%;
+    padding: 96px 10% 0 10%;
   }
   .bungkus-alasan {
     margin-top: 20px;
@@ -673,7 +667,7 @@ ul li {
 
   /* Akhir Artikel 2 */
   .isi-about {
-    padding: 150px 10% 80px 10%;
+    padding: 100px 10% 80px 10%;
   }
   /* Footer */
   .tampilan-footer {
@@ -740,6 +734,7 @@ ul li {
   }
   .bungkus-alasan {
     margin-top: 40px;
+    margin-bottom: 20px;
   }
   .alasan {
     text-align: center;
@@ -785,7 +780,7 @@ ul li {
   /* Akhir Article 2 */
 
   .isi-about {
-    padding: 150px 10% 80px 10%;
+    padding: 100px 10% 80px 10%;
   }
   .isi-about .keterangan {
     font-size: 16px;
@@ -801,6 +796,9 @@ ul li {
   .contact-footer {
     width: 100%;
   }
+  .kontakku {
+    margin-top: 5px;
+  }
 }
 
 /*  
@@ -810,6 +808,9 @@ Moblibe*/
     display: block;
     padding: 10px 7%;
     height: auto;
+  }
+  nav .logo img {
+    width: 110px;
   }
   nav .mainMenu {
     height: 100vh;
@@ -842,6 +843,10 @@ Moblibe*/
     margin: 0;
     color: white;
   }
+  .openMenu i {
+    font-size: x-large;
+  }
+
   nav .mainMenu li a:hover {
     background: none;
     color: rgb(252, 164, 1);
