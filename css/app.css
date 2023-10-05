@@ -27,8 +27,6 @@ nav {
   font-weight: 500;
   font-size: 22px;
   height: 80px;
-  transition: all;
-  transition-duration: 300ms;
 }
 
 /* Baru */
@@ -213,6 +211,7 @@ main {
   cursor: pointer;
   border-radius: 100px;
   font-weight: bold;
+  margin-right: 10px;
 }
 .tombol a {
   color: black;
