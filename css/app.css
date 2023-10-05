@@ -27,15 +27,17 @@ nav {
   font-weight: 500;
   font-size: 22px;
   height: 100px;
+  transition: all;
+  transition-duration: 300ms;
 }
-nav.scrolled {
-  /* background-color: rgb(255, 245, 46);
-  opacity: 0.98; */
+/* nav.scrolled {
+  background-color: rgb(255, 245, 46);
+  opacity: 0.98;
 }
 nav a,
 nav i {
-  /* transition: color 0.4s ease-in-out; */
-}
+  transition: color 0.4s ease-in-out;
+} */
 /* Baru */
 nav div img {
   width: 150px;
@@ -253,7 +255,7 @@ main {
 .memilih-kami {
   display: flex;
   flex-direction: row-reverse;
-  padding: 50px 15% 60px 15%;
+  padding: 50px 15% 0 15%;
   gap: 70px;
   background-color: white;
   /* background-image: url(img/shape-background.png); */
@@ -325,8 +327,8 @@ main {
   margin: auto;
 }
 /* Fonst Size Kelebihan */
-.kelebihan h2,
-.kelebihan1 h2 {
+.kelebihan h3,
+.kelebihan1 h3 {
   font-weight: 700;
   font-size: 20px;
 }
@@ -337,7 +339,7 @@ main {
 
 /* ARTIKEL 1 */
 .fitur {
-  padding: 0 15%;
+  padding: 140px 15% 0 15%;
   background-color: white;
 }
 
@@ -415,7 +417,7 @@ main {
   padding: 0 20px;
   /* padding-bottom: 14px; */
 }
-.post-body h2 {
+.post-body h3 {
   font-size: 22x;
 }
 .post-body p {
@@ -481,7 +483,7 @@ main {
 
 /* Akhir Article 2 */
 .pelanggan {
-  padding: 90px 15%;
+  padding: 90px 15% 0 15%;
   gap: 40px;
 }
 .pelanggan ul li img {
@@ -518,7 +520,7 @@ main {
 aside {
 }
 .isi-about {
-  padding: 0 15% 90px 15%;
+  padding: 140px 15% 90px 15%;
   text-align: center;
   margin: auto;
   background-color: white;
@@ -596,6 +598,10 @@ ul li {
 .kontakku i {
   font-size: 1.3em;
 }
+.icon-footer {
+  list-style: none;
+  display: flex;
+}
 .icon-footer i {
   padding: 5px;
   font-size: 1.5rem;
@@ -629,10 +635,11 @@ ul li {
     margin-top: 20px;
   }
   .fitur {
-    padding: 0 10%;
+    padding: 120px 10% 0 10%;
   }
   .bungkus-alasan {
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
   .alasan {
     text-align: center;
@@ -653,12 +660,12 @@ ul li {
     width: 100%;
     text-align: center;
   }
-  .post-body h2 {
+  .post-body h3 {
     font-size: 22px;
   }
   /* Artikel 2 */
   .pelanggan {
-    padding: 90px 10%;
+    padding: 90px 10% 0 10%;
   }
   .pelanggan p {
     font-size: 20px;
@@ -666,7 +673,7 @@ ul li {
 
   /* Akhir Artikel 2 */
   .isi-about {
-    padding: 0 10% 80px 10%;
+    padding: 150px 10% 80px 10%;
   }
   /* Footer */
   .tampilan-footer {
@@ -778,7 +785,7 @@ ul li {
   /* Akhir Article 2 */
 
   .isi-about {
-    padding: 0 10% 80px 10%;
+    padding: 150px 10% 80px 10%;
   }
   .isi-about .keterangan {
     font-size: 16px;
@@ -956,6 +963,7 @@ Moblibe*/
   }
   .memilih-kami {
     display: block;
+    padding: 70px 7% 0 7%;
   }
   .bungkus-alasan {
     margin-top: 40px;
@@ -969,7 +977,7 @@ Moblibe*/
     grid-template-columns: repeat(2, 1fr);
   }
   .fitur {
-    padding: 0 5%;
+    padding: 120px 5% 0 5%;
   }
   .post {
     margin-bottom: 10px;
@@ -986,7 +994,7 @@ Moblibe*/
   .post-footer {
     padding: 0 5px;
   }
-  .post-body h2 {
+  .post-body h3 {
     font-size: 15px;
     margin: 0 12px;
   }
@@ -1021,7 +1029,7 @@ Moblibe*/
     gap: 30px;
   }
   .isi-about {
-    padding: 40px 7%;
+    padding: 90px 7%;
     padding-bottom: 80px;
   }
   .isi-about img {
