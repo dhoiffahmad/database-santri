@@ -386,7 +386,7 @@ main {
   /* background-color: #1dff6c; */
   height: 100%;
   min-width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid rgba(189, 189, 189, 0.542);
 }
 .post a:hover {
@@ -398,7 +398,7 @@ main {
   width: 100%;
   height: 180px;
   object-fit: cover;
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 .post-penulis img {
   width: 50px;
@@ -496,59 +496,7 @@ main {
   width: 60%;
   font-size: 20px;
 }
-/* Awal Footer */
-footer {
-  font-family: "quicksand", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: white;
-}
-.tampilan-footer {
-  background-color: rgb(0, 71, 18);
-  padding: 30px 15%;
-  display: flex;
-  gap: 50px;
-}
-.logo-footer {
-  width: 40%;
-  margin: 20px 0;
-}
-.logo-footer img {
-  width: 150px;
-}
-.logo-footer p,
-.contact-footer h3,
-.fitur-footer h3 {
-  padding: 10px 0;
-}
-.contact-footer,
-.fitur-footer {
-  width: 30%;
-  margin: 20px 0;
-}
-.kontakku {
-  display: flex;
-  margin-top: 20px;
-  gap: 10px;
-}
-.kontakku i {
-  font-size: 1.3em;
-}
-.icon-footer i {
-  padding: 5px;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-.teks-footer {
-  text-align: center;
-  background-color: rgb(5, 54, 16);
-  color: white;
-  padding: 20px;
-}
-/* Akhir Footer */
-.content {
-  padding: 30px 15%;
-}
+
 /* Awal Aside (Profile) */
 aside {
 }
@@ -582,6 +530,70 @@ aside {
   font-size: 17px;
 }
 /* Akhir Aside */
+
+/* Awal Footer */
+footer {
+  font-family: "quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+.tampilan-footer {
+  background-color: rgb(0, 71, 18);
+  padding: 30px 15%;
+  display: flex;
+  gap: 50px;
+}
+.logo-footer {
+  width: 40%;
+  margin: 20px 0;
+}
+.logo-footer img {
+  width: 150px;
+}
+.logo-footer p,
+.contact-footer .sub-p,
+.fitur-footer p {
+  padding: 10px 0;
+}
+.contact-footer,
+.fitur-footer {
+  width: 30%;
+  margin: 20px 0;
+}
+.fitur-footer p,
+.sub-p {
+  font-weight: 600;
+}
+.fitur-footer ul {
+  padding-left: 0;
+}
+ul li {
+  list-style-position: inside;
+}
+.kontakku {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+.kontakku i {
+  font-size: 1.3em;
+}
+.icon-footer i {
+  padding: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.teks-footer {
+  text-align: center;
+  background-color: rgb(5, 54, 16);
+  color: white;
+  padding: 20px;
+}
+/* Akhir Footer */
+.content {
+  padding: 30px 15%;
+}
 
 /* RESPONSIVE */
 /* Laptop */
@@ -728,10 +740,14 @@ aside {
   }
   .pelanggan .judul-pelanggan h2 {
     font-size: 25px;
+    line-height: 30px;
   }
   .judul-pelanggan,
   .pelanggan p {
     width: 100%;
+  }
+  .pelanggan p {
+    padding-top: 10px;
   }
   /* Akhir Article 2 */
 
