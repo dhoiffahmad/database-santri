@@ -29,12 +29,12 @@ nav {
   height: 100px;
 }
 nav.scrolled {
-  background-color: aquamarine;
-  opacity: 0.98;
+  /* background-color: rgb(255, 245, 46);
+  opacity: 0.98; */
 }
 nav a,
 nav i {
-  transition: color 0.4s ease-in-out;
+  /* transition: color 0.4s ease-in-out; */
 }
 /* Baru */
 nav div img {
@@ -789,7 +789,7 @@ Moblibe*/
     justify-content: center;
     align-items: center;
     background: rgb(0, 71, 18);
-    transition: top 1s ease 0s;
+    /* transition: top 1s ease 0s; */
     display: none;
   }
   nav .mainMenu .closeMenu {
