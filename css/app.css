@@ -121,7 +121,7 @@ nav .mainMenu li a:hover {
 }
 nav .mainMenu li a:hover {
   background: none;
-  color: rgb(255, 123, 0);
+  color: rgb(252, 164, 1);
 }
 /* .daftar:hover {
   border-color: rgb(255, 123, 0);
@@ -481,10 +481,13 @@ main {
 
 /* Akhir Article 2 */
 .pelanggan {
-  display: flex;
   padding: 90px 15%;
   gap: 40px;
 }
+.pelanggan ul li img {
+  width: 120px;
+}
+
 .judul-pelanggan {
   width: 40%;
 }
@@ -493,15 +496,29 @@ main {
   line-height: 40px;
 }
 .pelanggan p {
+  padding-top: 23px;
   width: 60%;
   font-size: 20px;
 }
-
+.bungkus-pelanggan {
+  display: flex;
+  padding: 0 0 40px 0;
+  gap: 20px;
+}
+.logo-pelanggan {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.logo-pelanggan li {
+  list-style: none;
+}
 /* Awal Aside (Profile) */
 aside {
 }
 .isi-about {
-  padding: 0 15% 80px 15%;
+  padding: 0 15% 90px 15%;
   text-align: center;
   margin: auto;
   background-color: white;
@@ -734,9 +751,18 @@ ul li {
     font-size: 30px;
     max-width: 450px;
   }
+  .bungkus-pelanggan {
+    display: block;
+  }
   .pelanggan {
     flex-direction: column;
     gap: 10px;
+  }
+  .logo-pelanggan {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .bungkus-pelanggan p {
+    font-size: 18px;
   }
   .pelanggan .judul-pelanggan h2 {
     font-size: 25px;
@@ -811,7 +837,7 @@ Moblibe*/
   }
   nav .mainMenu li a:hover {
     background: none;
-    color: rgb(255, 123, 0);
+    color: rgb(252, 164, 1);
   }
   .mainMenu ul {
     flex-direction: column;
@@ -980,6 +1006,11 @@ Moblibe*/
   }
   /* Akhir Article 2 */
 
+  /* Logo Pelanggan */
+  .logo-pelanggan {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
   /* Footer */
   .teks-footer {
     font-size: 13px;
