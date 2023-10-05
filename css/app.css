@@ -822,7 +822,7 @@ Moblibe*/
     justify-content: center;
     align-items: center;
     background: rgb(0, 71, 18);
-    /* transition: top 1s ease 0s; */
+    transition: top 1s ease 0s;
     display: none;
   }
   nav .mainMenu .closeMenu {
